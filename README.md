@@ -79,3 +79,24 @@ Run Node
 ```console
 python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
 ```
+
+Clone the Repository
+```bash
+git clone https://github.com/gensyn-ai/rl-swarm/
+cd rl-swarm
+```
+
+---
+
+## 7) Run the swarm
+Open a screen to run it in background
+```bash
+screen -S swarm
+```
+Install swarm
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+./run_rl_swarm.sh
+```
+Press `Y`
