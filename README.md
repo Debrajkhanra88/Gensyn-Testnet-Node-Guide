@@ -48,3 +48,8 @@ Clone Repo
 ```console
 rm -rf rl-swarm && git clone https://github.com/FEdanish/rl-swarm.git && cd rl-swarm
 ```
+New screen
+
+```console
+screen -S gensyn
+```
