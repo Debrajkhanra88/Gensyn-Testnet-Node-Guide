@@ -88,7 +88,7 @@ cd rl-swarm
 
 ---
 
-## 7) Run the swarm
+**7. Run the swarmn**
 Open a screen to run it in background
 ```bash
 screen -S swarm
