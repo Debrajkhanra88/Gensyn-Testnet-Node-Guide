@@ -7,7 +7,7 @@
 ## Install Dependencies
 **1. Update System Packages**
 ```bash
-apt update && apt install -y sudo
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 **2. Install General Utilities and Tools**
 ```bash
