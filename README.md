@@ -38,10 +38,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 # Test Docker
 sudo docker run hello-world
 ```
-* Tip: To run Docker without sudo, add your user to the Docker group:
-```bash
-sudo usermod -aG docker $USER
-```
 **4. Install Node.js and npm**
 ```console
 curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
