@@ -7,11 +7,11 @@
 ## Install Dependencies
 **1. Update System Packages**
 ```bash
-sudo apt-get update && sudo apt-get upgrade -y
+apt update && apt install -y sudo
 ```
 **2. Install General Utilities and Tools**
 ```bash
-sudo apt install screen curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
+sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wget screen git lsof nano unzip
 ```
 
 **3. Install Docker**
@@ -42,67 +42,10 @@ sudo docker run hello-world
 ```bash
 sudo usermod -aG docker $USER
 ```
-
-**4. Install Python**
-```bash
-sudo apt-get install python3 python3-pip python3-venv python3-dev -y
-```
-
-**5. Install Node**
-```
-sudo apt-get update
-```
-```
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
-```
-```
-sudo apt-get install -y nodejs
-```
-```
-node -v
-```
-```bash
-sudo npm install -g yarn
-```
-```bash
-yarn -v
-```
-
-**6. Install Yarn**
-```bash
-curl -o- -L https://yarnpkg.com/install.sh | bash
-```
-```bash
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-```
-```bash
-source ~/.bashrc
-```
-
-
-Run Node
-
+**4. Install Node.js and npm**
 ```console
-python3 -m venv .venv && source .venv/bin/activate && ./run_rl_swarm.sh
+curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
 ```
 
-Clone the Repository
-```bash
-git clone https://github.com/gensyn-ai/rl-swarm/
-cd rl-swarm
-```
 
----
-
-**7. Run the swarmn**
-Open a screen to run it in background
-```bash
-screen -S swarm
-```
-Install swarm
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-./run_rl_swarm.sh
-```
 
