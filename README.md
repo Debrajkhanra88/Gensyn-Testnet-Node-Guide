@@ -42,6 +42,17 @@ sudo docker run hello-world
 ```console
 curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
 ```
+**5. Clone this repository**
 
+**6. Create a screen session**
 
+```console
+screen -S gensyn
+```
+
+**7. Run the swarm**
+
+```console
+python3 -m venv .venv && . .venv/bin/activate && ./run_rl_swarm.sh
+```
 
