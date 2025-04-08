@@ -45,6 +45,9 @@ curl -sSL https://raw.githubusercontent.com/FEdanish/Gensyn/refs/heads/main/node
 
 **5. Clone this repository**
 
+```console
+cd $HOME && [ -d rl-swarm ] && rm -rf rl-swarm; git clone https://github.com/FEdanish/rl-swarm.git && cd rl-swarm
+```
 **6. Create a screen session**
 
 ```console
