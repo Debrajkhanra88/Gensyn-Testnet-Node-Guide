@@ -40,8 +40,9 @@ sudo docker run hello-world
 ```
 **4. Install Node.js and npm**
 ```console
-curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
+curl -sSL https://raw.githubusercontent.com/FEdanish/Gensyn/refs/heads/main/node.sh | bash
 ```
+
 **5. Clone this repository**
 
 **6. Create a screen session**
