@@ -11,7 +11,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 ```
 **. Install Node.js and npm**
 ```console
-curl -sSL https://raw.githubusercontent(.)com/zunxbt/installation/main/node.sh | bash
+curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
 ```
  **.Install other dependencies using the command below**
  ```console
